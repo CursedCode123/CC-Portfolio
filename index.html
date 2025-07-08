@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CursedCode</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="images/CursedCode-head.png" type="image/png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-content">
+      <h1 class="nav-logo">CursedCode</h1>
+      <div class="nav-links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contacts" class="nav-link">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-image">
+        <img src="images/cursedcode.jpg" alt="CursedCode" />
+      </div>
+      <div class="hero-text">
+        <h1>Hi, I am <span>CursedCode</span></h1>
+        <p>I’ve been playing Minecraft for over 5 years and spent the last 2 years specializing in Java plugin development and server configurations. I enjoy building unique gameplay experiences and optimizing every detail to create smooth, customized servers.</p>
+        <a href="https://discord.com/users/1391105097106456696" class="contact-btn">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills-section" id="skills">
+    <div class="skills-container">
+      <h2>My Skills</h2>
+
+      <!-- Programming Skills -->
+      <div class="skill-group">
+        <h3>Programming</h3>
+        <div class="skill"><span>Java</span><div class="skill-bar"><div class="skill-fill" data-percent="80"></div></div></div>
+        <div class="skill"><span>HTML/CSS</span><div class="skill-bar"><div class="skill-fill" data-percent="80"></div></div></div>
+        <div class="skill"><span>JavaScript</span><div class="skill-bar"><div class="skill-fill" data-percent="10"></div></div></div>
+        <div class="skill"><span>Python</span><div class="skill-bar"><div class="skill-fill" data-percent="30"></div></div></div>
+      </div>
+
+      <!-- Server Skills -->
+      <div class="skill-group">
+        <h3>Server Skills</h3>
+        <div class="skill"><span>Plugin Configuration</span><div class="skill-bar"><div class="skill-fill" data-percent="95"></div></div></div>
+        <div class="skill"><span>Plugin Development</span><div class="skill-bar"><div class="skill-fill" data-percent="85"></div></div></div>
+        <div class="skill"><span>Overall Server Management</span><div class="skill-bar"><div class="skill-fill" data-percent="88"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects-section" id="projects">
+    <div class="projects-container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/placeholder.png" alt="Project 1">
+          </div>
+          <div class="project-content">
+            <h3>Title</h3>
+            <p>Discription</p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/placeholder.png" alt="Project 2">
+          </div>
+          <div class="project-content">
+            <h3>Title</h3>
+            <p>Discription</p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+
+        <!-- Add more project-card blocks as needed -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" id="services">
+    <div class="services-container">
+      <h2>Services</h2>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <h3>Plugin Development</h3>
+          <p>Custom-coded plugins built to suit your server’s unique mechanics and gameplay systems.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Plugin Configuration</h3>
+          <p>Optimized configuration for all types of plugins to deliver smooth, lag-free gameplay.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Server Setup</h3>
+          <p>Full server setups including worlds, permissions, plugins, and optimization for launch-ready servers.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Bot Development</h3>
+          <p>Custom Discord bots for moderation, tickets, ranks, stats, and seamless server integration.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews-section" id="reviews">
+    <div class="reviews-container">
+      <h2>Client Reviews</h2>
+      <p>No Reviews...</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contacts">
+    <div class="contact-content">
+      <!-- Discord Profile Info -->
+      <div class="contact-left">
+        <img src="images/cursedcode.jpg" alt="Profile" class="discord-avatar">
+        <div class="discord-info">
+          <h3 class="discord-name">CursedCode</h3>
+          <p class="discord-tag">@1391105097106456696</p>
+        </div>
+      </div>
+
+      <!-- Social Links -->
+      <div class="contact-right">
+        <a href="https://discord.com/users/1391105097106456696" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
+        <a href="https://github.com/CursedCode123" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
