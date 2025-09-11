@@ -661,3 +661,63 @@ function initCountingAnimations() {
         counterObserver.observe(counter);
     });
 }
+// Smooth scrolling for navigation links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Stats counter animation
+function animateStats() {
+    const statNumbers = document.querySelectorAll('.stat-number');
+    
+    statNumbers.forEach(stat => {
+        const target = parseFloat(stat.getAttribute('data-target'));
+        const increment = target / 100;
+        let current = 0;
+        
+        const timer = setInterval(() => {
+            current += increment;
+            if (current >= target) {
+                current = target;
+                clearInterval(timer);
+            }
+            
+            // Handle decimal places for rating
+            if (target === 4.9) {
+                stat.textContent = current.toFixed(1);
+            } else {
+                stat.textContent = Math.floor(current);
+            }
+        }, 20);
+    });
+}
+
+// Intersection Observer for stats animation
+const statsSection = document.querySelector('.stats-section');
+if (statsSection) {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                animateStats();
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+    
+    observer.observe(statsSection);
+}
+
+// Navbar scroll effect
+window.addEventListener('scroll', function() {
+    const navbar = document.querySelector('.navbar');
+    if (window.scrollY > 50) {
+        navbar.style.background = 'rgba(19, 9, 20, 0.98)';
+    } else {
+        navbar.style.background = 'rgba(19, 9, 20, 0.95)';
+    }
+});
