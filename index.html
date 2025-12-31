@@ -3,265 +3,323 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CursedCode | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>CursedCode's Portfolio</title>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-content">
-            <a href="#home" class="logo">CursedCode</a>
-            
-            <ul class="nav-links">
-                <li><a href="#about" class="link">About</a></li>
-                <li><a href="#projects" class="link">Projects</a></li>
-                <li><a href="#reviews" class="link">Reviews</a></li>
-                <li><a href="#clients" class="link">Clients</a></li>
-                <li><a href="#contact" class="link">Contact</a></li>
-            </ul>
-            
-            <a href="#contact" class="contact">Get in touch!</a>
+    <nav>
+        <div class="logo">
+            <img src="images/CursedCode-head.png" alt="logo">
+            <h1>CursedCode</h1>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="https://discord.com/users/860886357508882462">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">CursedCode</h1>
-            <p class="hero-subtitle">Crafting Digital Experiences with Code & Creativity</p>
-            <a href="#projects" class="cta-button">View My Work</a>
-        </div>
-    </section>
+    <div class="menubar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="https://discord.com/users/860886357508882462">Contact</a></li>
+        </ul>
+    </div>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-content">
-            <div class="about-text">
-                <p>I'm CursedCode, a web and plugin developer who loves turning complex ideas into simple, working solutions. From sleek web interfaces to powerful Minecraft plugins, I focus on writing clean, efficient code that brings projects to life.</p>
-                <p>I also work as a configurator, shaping servers and systems into smooth, polished experiences. I enjoy fine-tuning every detail so everything runs the way it should, without clutter or confusion.</p>
-                <p>Beyond coding and configuration, I'm a content creator who shares knowledge and builds communities. Whether it's showcasing projects, exploring new tools, or supporting other developers, I believe in creating work that inspires and connects.</p>
+    <div class="home" id="home">
+        <div class="hero">
+            <div class="hero-content">
+                <img src="images/logo.webp" alt="Logo" class="hero-logo">
+                <div class="hero-text">
+                    <h1>Hello,</h1>
+                    <h1>I'm Cursed<span>Code</span></h1>
+                    <p>Your one-stop destination for all things coding and development. Explore my projects, skills, and get in touch!</p>
+                    <a href="https://discord.com/users/860886357508882462" class="hero-contact">Contact</a>
+                </div>
             </div>
-            <div class="skills">
-                <div class="skill">
-                    <div class="skill-name">JavaScript</div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">Java</div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">HTML</div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">Python</div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">CSS</div>
-                </div>
-                <div class="skill special">
-                    <div class="skill-name">Content Creation</div>
-                </div>
-                <div class="skill special">
-                    <div class="skill-name">Configurator</div>
-                </div>
-                <div class="skill special">
-                    <div class="skill-name">Discord Moderation</div>
+            <div class="scrolldown">
+                <div class="chevrons">
+                    <div class="chevrondown"></div>
+                    <div class="chevrondown"></div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <h2 class="section-title">Featured Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <h3 class="project-title">Owners Network</h3>
-                <p class="project-description">Owners Network is a staffing and creator community where you can showcase your services, promote content or servers, earn skill-based badges, and compete for monthly rewards.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">Staff member</span>
-                </div>
-                <a href="https://discord.gg/BPD3eWyZv4" class="project-link">View Project →</a>
-            </div>
-            
-            <div class="project-card">
-                <h3 class="project-title">Eclipse Studio</h3>
-                <p class="project-description">Eclipse Studio is a creative team dedicated to making high-quality Minecraft promo shorts. We focus on fast, cinematic content that highlights server features in a unique way, helping communities stand out and grow.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">Founder</span>
-                </div>
-                <a href="https://discord.gg/c6VSWKmyyn" class="project-link">View Project →</a>
-            </div>
-            
-            <div class="project-card">
-                <h3 class="project-title">Portfolio Website</h3>
-                <p class="project-description">A responsive portfolio website with stunning animations, smooth scrolling, and modern design principles to showcase creative work.</p>
-                <div class="project-tech">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Reviews Section -->
-    <section id="reviews" class="section">
-        <h2 class="section-title">Client Reviews</h2>
-        <div class="reviews-container">
-            <div class="review-card">
-                <div class="review-stars">⭐⭐⭐⭐⭐</div>
-                <p class="review-text">"Great work! CursedCode made us a single video so far and we are thorougly impressed with the results. We decided to order one of the bulk packages so we can post frequent content on our Tiktok account."</p>
-                <p class="reviewer">— Raindropz, Founder of HibiscusMC</p>
-            </div>
-            
-            <div class="review-card">
-                <div class="review-stars">⭐⭐⭐⭐⭐</div>
-                <p class="review-text">"Consistent with videos and so far good quality"</p>
-                <p class="reviewer">— CrabbyMC, Onwer of CrystalChaos</p>
-            </div>
-            
-            <div class="review-card">
-                <div class="review-stars">⭐⭐⭐⭐⭐</div>
-                <p class="review-text">"Excellent communication, creates high quality shorts for an epic price!"</p>
-                <p class="reviewer">— Kyezi, Admin on OraclePvP</p>
+    <div class="skills" id="skills">
+        <div class="skills-background"></div>
+        <div class="skills-content">
+            <div class="skills-left">
+                <h2>My <span>Skills</span></h2>
+                <p>I have played Minecraft for nearly five years and learned a lot through hands on experience. I have edited Minecraft videos for two years and worked with plugin configuration for the same amount of time. I have been developing Java plugins for one year, focusing on practical server features. I have also built websites for three years. I learn every day and keep improving my skills through constant practice and real projects.</p>
+                <a href="#projects" class="see-more-btn">SEE MORE</a>
             </div>
 
-            <div class="review-card">
-                <div class="review-stars">⭐⭐⭐⭐⭐</div>
-                <p class="review-text">"video did well, delivered in a timely manner, would recommend"</p>
-                <p class="reviewer">— Levitate, Owner of MooCrest</p>
-            </div>
-
-            <div class="review-card">
-                <div class="review-stars">⭐⭐⭐⭐⭐</div>
-                <p class="review-text">"Did an order got good quick service"</p>
-                <p class="reviewer">— samxri, Owner of RageMC</p>
-            </div>
-
-            <div class="review-card">
-                <div class="review-stars">⭐⭐⭐⭐⭐</div>
-                <p class="review-text">"My guys is cooking with these fire shorts 🔥"</p>
-                <p class="reviewer">— Yacine__, Owner of HorizonCraft</p>
-            </div>
-        </div>
-        <p class="more">And more...</p>
-    </section>
-
-    <!-- Clients Section -->
-    <section id="clients" class="section">
-      <h2 class="section-title">Trusted by Amazing Clients</h2>
-      <div class="clients-grid">
-        <div class="client-logo">
-          <img src="images/APOLLOLOGO.png" alt="Apollo Logo">
-        </div>
-        <div class="client-logo">
-          <img src="images/crystalchaos.webp" alt="CrystalChaos Logo">
-        </div>
-        <div class="client-logo">
-          <img src="images/Hibiscus_bigg.png" alt="Hibiscus Logo">
-        </div>
-        <div class="client-logo">
-          <img src="images/horizon.png" alt="Horizon Logo">
-        </div>
-        <div class="client-logo">
-          <img src="images/moocrest.png" alt="MooCrest Logo">
-        </div>
-        <div class="client-logo">
-          <img src="images/ReaperMC_PNG_Transparent_4k.png" alt="ReaperMC Logo">
-        </div>
-        <div class="client-logo">
-          <img src="images/sourmc_logo_512x512.png" alt="SourMC Logo">
-        </div>
-      </div>
-    </section>
-    <!-- Stats Section -->
-    <section id="stats" class="section stats-section">
-        <h2 class="section-title">By the Numbers</h2>
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-icon">
-                    <i class="fas fa-check-circle"></i>
-                </div>
-                <div class="stat-number" data-target="14">0</div>
-                <div class="stat-label">Completed Commissions</div>
-            </div>
-            
-            <div class="stat-card">
-                <div class="stat-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="stat-number" data-target="10">0</div>
-                <div class="stat-label">Total Reviews</div>
-            </div>
-            
-            <div class="stat-card">
-                <div class="stat-icon">
-                    <i class="fas fa-heart"></i>
-                </div>
-                <div class="stat-number" data-target="5">0</div>
-                <div class="stat-label">Average Rating */5</div>
-            </div>
-            
-            <div class="stat-card">
-                <div class="stat-icon">
-                    <i class="fas fa-users"></i>
-                </div>
-                <div class="stat-number" data-target="10">0</div>
-                <div class="stat-label">Happy Clients</div>
-            </div>
-        </div>
-    </section>
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="contact-container">
-            <h2 class="section-title">Let's Work Together</h2>
-            <p class="contact-description">Ready to bring your ideas to life? Let's create something amazing together.</p>
-            
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-discord"></i>
+            <div class="skills-right">
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-item-header">
+                            <h3>HTML</h3>
+                            <span class="skill-percentage">95%</span>
                         </div>
-                        <div class="contact-details">
-                            <h4>Discord</h4>
-                            <p>@cursedcode_</p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width: 95%"></div>
                         </div>
                     </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
+
+                    <div class="skill-item">
+                        <div class="skill-item-header">
+                            <h3>CSS</h3>
+                            <span class="skill-percentage">90%</span>
                         </div>
-                        <div class="contact-details">
-                            <h4>Email</h4>
-                            <p>cursedcode1@gmail.com</p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width: 90%"></div>
                         </div>
                     </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-clock"></i>
+
+                    <div class="skill-item">
+                        <div class="skill-item-header">
+                            <h3>JavaScript</h3>
+                            <span class="skill-percentage">85%</span>
                         </div>
-                        <div class="contact-details">
-                            <h4>Response Time</h4>
-                            <p>Within 24 hours</p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-item-header">
+                            <h3>Python</h3>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width: 88%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-item-header">
+                            <h3>PHP</h3>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width: 75%"></div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="contact-cta">
-                    <a href="https://discord.com/users/1391105097106456696" class="primary-button">
+            </div>
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+        <div class="projects-content">
+            <div class="projects-header">
+                <h2 class="projects-title">My <span>Projects</span></h2>
+                <p class="projects-subtitle">Check out some of my recent work</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/834b9b7e312bd590a26edfaa4eaf9825.webp" alt="Minecraft Server">
+                        <div class="project-overlay">
+                            <a href="https://discord.gg/kf7trUmAYE" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>PlanetMedia</h3>
+                        <p>A content creation studio mainly for Minecraft server promotional shorts.</p>
+                        <div class="project-tags">
+                            <span class="tag">Adobe Premiere Pro</span>
+                            <span class="tag">Flashback</span>
+                            <span class="tag">OBS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/portfolio.png" alt="Portfolio Website">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>Modern and responsive portfolio website built with HTML, CSS, and JavaScript featuring smooth animations.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/crystaliamc-banner.webp" alt="Crystalia MC">
+                        <div class="project-overlay">
+                            <a href="https://discord.gg/kf7trUmAYE" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Crystalia Network</h3>
+                        <p>A Minecraft network I own with some friends</p>
+                        <div class="project-tags">
+                            <span class="tag">Survival</span>
+                            <span class="tag">Bosses</span>
+                            <span class="tag">Custom-items</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews" id="reviews">
+        <div class="reviews-content">
+            <div class="reviews-header">
+                <h2 class="reviews-title">Client <span>Reviews</span></h2>
+                <p class="reviews-subtitle">What people say about my work</p>
+            </div>
+
+            <div class="marquee-container">
+                <div class="marquee-track">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <div class="reviewer-avatar">RD</div>
+                                <div class="reviewer-details">
+                                    <h3>Raindropz</h3>
+                                    <p class="reviewer-role">Server Owner</p>
+                                </div>
+                            </div>
+                            <span class="review-date">AUG 2025</span>
+                        </div>
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">Great work! CursedCode made us a single video so far and we are thorougly impressed with the results. We decided to order one of the bulk packages so we can post frequent content on our Tiktok account.</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <div class="reviewer-avatar">K</div>
+                                <div class="reviewer-details">
+                                    <h3>Kyezi</h3>
+                                    <p class="reviewer-role">Server Admin</p>
+                                </div>
+                            </div>
+                            <span class="review-date">SEPT 2025</span>
+                        </div>
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">Excellent communication, creates high quality shorts for an epic price!</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <div class="reviewer-avatar">CM</div>
+                                <div class="reviewer-details">
+                                    <h3>CrabbyMC</h3>
+                                    <p class="reviewer-role">Server Owner</p>
+                                </div>
+                            </div>
+                            <span class="review-date">SEPT 2024</span>
+                        </div>
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">Consistent with videos and so far good quality</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <div class="reviewer-avatar">S</div>
+                                <div class="reviewer-details">
+                                    <h3>Samxri</h3>
+                                    <p class="reviewer-role">Server Owner</p>
+                                </div>
+                            </div>
+                            <span class="review-date">Sep 2024</span>
+                        </div>
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">cursedcode is the GOAT ive only recieved straight PEAK content from them</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="images/CursedCode-head.png" alt="logo">
+                    <h2>CursedCode</h2>
+                </div>
+                <p>Building digital experiences with passion and precision. Let's create something amazing together!</p>
+                <div class="social-links">
+                    <a href="https://discord.com/users/860886357508882462" class="social-link" aria-label="Discord">
                         <i class="fab fa-discord"></i>
-                        <span>Contact on Discord</span>
+                    </a>
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
                     </a>
                 </div>
             </div>
-        </div>
-    </section>
 
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul class="footer-links">
+                    <li><a href="https://discord.com/users/860886357508882462">Web Development</a></li>
+                    <li><a href="https://discord.com/users/860886357508882462">Minecraft Servers</a></li>
+                    <li><a href="https://discord.com/users/860886357508882462">Discord Bots</a></li>
+                    <li><a href="https://discord.com/users/860886357508882462">Video Editing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul class="footer-links">
+                    <li><a href="https://discord.com/users/860886357508882462">Discord</a></li>
+                    <li><a href="mailto:cursedcode1@gmail.com">Email</a></li>
+                    <li><a href="https://discord.com/users/860886357508882462">Support</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
